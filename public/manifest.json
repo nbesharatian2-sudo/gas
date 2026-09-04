@@ -1,0 +1,35 @@
+{
+  "id": "/",
+  "name": "اسکید پرکننده ۲ تنی سیلندر گاز مایع LPG",
+  "short_name": "اسکید LPG",
+  "description": "رندر سه‌بعدی مهندسی و شبیه‌ساز صنعتی ایستگاه پرکن سیلندرهای ۲ کیلویی گاز مایع با مخزن ۲ تنی",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "orientation": "any",
+  "start_url": "/",
+  "scope": "/",
+  "lang": "fa",
+  "dir": "rtl",
+  "categories": ["utilities", "engineering"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

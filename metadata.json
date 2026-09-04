@@ -1,0 +1,6 @@
+{
+  "name": "2-Ton LPG Cylinder Filling Skid 3D Render",
+  "description": "3D industrial render, interactive engineering visualizer, and PWA simulator of a 2-ton LPG cylinder filling skid with full Persian interface and Android support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

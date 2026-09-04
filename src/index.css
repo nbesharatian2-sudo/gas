@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-mono-tech {
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .glow-cyan-sm {
+    box-shadow: 0 0 12px rgba(0, 229, 255, 0.45);
+  }
+  .glow-cyan-md {
+    box-shadow: 0 0 24px rgba(0, 229, 255, 0.65), 0 0 6px rgba(0, 229, 255, 0.85);
+  }
+  .glow-cyan-lg {
+    box-shadow: 0 0 45px rgba(0, 229, 255, 0.75), 0 0 12px rgba(0, 229, 255, 0.95);
+  }
+  .text-glow-cyan {
+    text-shadow: 0 0 8px rgba(0, 229, 255, 0.8), 0 0 20px rgba(0, 229, 255, 0.4);
+  }
+}
+
+/* Custom technical scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090a0f;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00e5ff;
+}
